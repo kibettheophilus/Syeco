@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Syeco</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="info">Purchase Airtime at a discounted rate</string>
+    <string name="pay">PAY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
