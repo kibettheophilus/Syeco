@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import ke.co.topup.syeco.R
 import ke.co.topup.syeco.databinding.ActivityLoginBinding
+import ke.co.topup.syeco.ui.home.HomeActivity
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -17,7 +19,13 @@ class LoginActivity : AppCompatActivity() {
 
 
         binding.loginBtn.setOnClickListener {
-            Log.e("Action", "Clicked")
+            if (binding.emailLogin.text?.trim().toString().isNotEmpty() ||
+                binding.passwordLogin.text?.trim().toString().isNotEmpty()
+            ) {
+
+            }else{
+                Toast.makeText(this, "Input required", Toast.LENGTH_SHORT).show()
+            }
         }
 
         binding.tvRegister.setOnClickListener {
