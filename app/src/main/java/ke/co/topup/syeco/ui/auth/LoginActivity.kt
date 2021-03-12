@@ -19,13 +19,16 @@ class LoginActivity : AppCompatActivity() {
 
 
         binding.loginBtn.setOnClickListener {
-            if (binding.emailLogin.text?.trim().toString().isNotEmpty() ||
-                binding.passwordLogin.text?.trim().toString().isNotEmpty()
-            ) {
-
-            }else{
-                Toast.makeText(this, "Input required", Toast.LENGTH_SHORT).show()
-            }
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
+//            if (binding.emailLogin.text?.trim().toString().isNotEmpty() ||
+//                binding.passwordLogin.text?.trim().toString().isNotEmpty()
+//            ) {
+//
+//            }else{
+//                Toast.makeText(this, "Input required", Toast.LENGTH_SHORT).show()
+//            }
         }
 
         binding.tvRegister.setOnClickListener {
