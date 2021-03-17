@@ -28,7 +28,8 @@ class LoginActivity : AppCompatActivity() {
 //                binding.passwordLogin.text?.trim().toString().isNotEmpty()
 //            {
 
-//            singInUser(binding.emailLogin.text?.trim().toString(), binding.passwordLogin.text?.trim().toString())
+//            singInUser(binding.emailLogin.text?.trim().toString(),
+            //            binding.passwordLogin.text?.trim().toString())
 
 //            }else{
 //                Toast.makeText(this, "Input required", Toast.LENGTH_SHORT).show()

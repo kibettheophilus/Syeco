@@ -55,7 +55,7 @@
                         android:id="@+id/username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Username"
+                        android:hint="@string/username"
                         android:textSize="25sp"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
@@ -74,7 +74,7 @@
                         android:id="@+id/emailResgister"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Email"
+                        android:hint="@string/email"
                         android:textSize="25sp"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
@@ -92,7 +92,7 @@
                         android:id="@+id/passwordRegister"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Password"
+                        android:hint="@string/password"
                         android:textSize="25sp"
                         android:inputType="textPassword"
                         />
@@ -105,7 +105,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:text="Register"
+                    android:text="@string/register"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_gravity="center"/>
@@ -123,7 +123,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already a member?"
+                android:text="@string/already_a_member"
                 android:gravity="center"
                 android:textSize="20sp"
                 />
@@ -132,7 +132,7 @@
                 android:id="@+id/tv_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="@string/login"
                 android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textSize="20sp" />

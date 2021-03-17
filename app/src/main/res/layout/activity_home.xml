@@ -35,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="About Us"
+                    android:text="@string/about_us"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Events"
+                    android:text="@string/events"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Donate"
+                    android:text="@string/donate"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Partners"
+                    android:text="@string/partners"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
